@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    width: 100%;
+    height: 100vh;
+}
+
+.main{
+    width: 100%;
+    height: 8vh;
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    text-align: center;
+}
+.one {
+    padding-left: 3px;
+    padding-right: 3px;
+    justify-content: space-evenly;
+}
+.two p{
+    text-decoration: none;
+    color: white;
+    font-size: 12x;
+}
+.three{
+    margin-right: 50px;
+    margin-top: -8px;
+    padding-right: 3ch;
+    padding-left: 3ch;
+
+}
+.three a{
+    /* padding-inline: 10px; */
+    padding: 3px;
+    font-size: small;
+    text-decoration: none;
+    /* padding: 8px; */
+    color: gray;
+    font-family: sans-serif;
+}
+.saylanilogo {
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 300px;
+    background-color: white;
+    }
+    
+    .links {
+        display: flex;
+        display: contents;
+        width: 100%;
+        height: 7vh;
+        justify-content: space-around;
+        background-color: white;
+        padding-top: 4px;
+        color: black;
+    }
+    .info {
+        
+        padding-top: 10px;
+        padding-right: 10px;
+        background-color: white;
+        display: inline;
+    }
+    .info a
+    {
+        color: black;
+        margin: 7px;
+        padding: 13px;
+        text-decoration: none;
+    }
+    .info a:hover
+    {
+        color: white;
+        border-radius: 20px;
+        background-color: royalblue;
+    }
+    .carousel img{
+        width: 100%;
+        height: 600px;
+    }
+    marquee {
+        width: 85%;
+        height: 25px;
+        padding: 3px;
+        color: white;
+        background-color: royalblue;
+        margin: 10px;
+        font-family: sans-serif;
+        margin-top: -60px;
+    }
+    .content
+    {
+        width: 100%;
+        height: 100vh;
+        background-color: whitesmoke;
+        margin-top: -20px;
+    }
+    .para
+    {
+        background-color: whitesmoke;
+        margin-left: 250px;
+        padding: 50px;
+        box-sizing: border-box;
+        width: 60%;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        font-size: 16px;
+    }
+    .para h1
+    {
+        font-size: 40px;
+        color: royalblue;
+        font-family: Cambria;
+    }
+    .status
+{
+    display: flex;
+    justify-content: space-between; 
+    padding: 80px;
+    padding-right: 40px;
+    padding-left: 40px;
+    width: 100%;
+    height: 50vh;
+    background-color:blue;
+    color: white;
+    box-sizing: border-box;
+    font-family: cambria;
+    font-size: 14px;
+    margin-top: 200px;
+}
+.dastarkhuan
+{
+    margin-left: 150px;
+}
+.edu
+{
+    margin-right: 180px;
+}
+.status h1{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+}
+.doing {
+    width: 100%;
+    height:105vh;
+    background-color: whitesmoke;
+    padding: 40px;
+    box-sizing: border-box;
+    font-family: cambria;
+    padding-top: -10px;
+  
+}
+.up, .down
+{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.sadqah, .welfare, .medi, .dast, .roplant, .education
+{
+    width: 350px;
+    height: 180px;
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px gray;
+    padding: 40px;
+    box-sizing: border-box;
+    margin: 20px;
+    font-size: 13px;
+}
+.doing span{
+    color: green;
+}
+.events{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.boxes{   
+    flex: 2;
+    width: 100%;
+    height:100vh;
+    background-color: white;
+    padding: 40px;
+    box-sizing: border-box;
+    font-family: cambria;
+    padding-top: -10px;
+  
+}
+.upcoming {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+#mar {
+
+    height: 200px;
+    padding: 3px;
+    color: #212F3D;
+    background-color: whitesmoke;
+    margin: 10px;
+    font-family: sans-serif;
+
+}
+.up1, .down1
+{
+    display: flex;
+    justify-content: start;
+    margin-top: 0px;
+}
+.hepatitis, .housing , .it, .thar {
+   
+    width: 360px;
+    height: 10vh;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 8px 0px gray;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 13px;
+}
+#head1{
+    color: royalblue;
+    font-weight: 400;
+    margin-left: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#head2{
+    color: royalblue;
+    font-weight: 400;
+    margin-right: 220px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.boxes h5{
+    padding-left: 4px;
+    padding-right: 100px;
+}
+.hepatitis img{
+    margin-top: -10px;
+    margin-right: 20px;
+    margin-left: -35px;
+}
+
+.it img{
+    margin-top: -10px;
+    margin-right: 20px;
+    margin-left: -35px;
+}
+.thar img{
+    margin-top: -10px;
+    margin-right: 20px;
+    margin-left: -30px;
+}
+.housing img{
+   margin-right: 10px;
+}
+.hepatitis, .it, .thar h5{
+    color: royalblue;
+    align-self: auto;
+}
+.main1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.gallery
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    width: 100%;
+    height: 50vh;
+    margin-top: -400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.last
+{
+    width: 100%;
+    height: 55vh;
+    background-color: #212F3D;
+    line-height: 1.7;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    
+   
+}
+#h6 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+#h {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.links img{
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container {
+    background-color: #212F3D ;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto 0 auto;
+    padding: 20px 50px;
+    text-align: left;
+    width: 100vmax;
+    height: 64xvh;
+    line-height: 1.7;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.onee {
+    flex: 1;
+}
+.twoo {
+    flex: 1;
+}
+.threee {
+    flex: 1;
+}
+#aq {
+    text-align: left;
+    padding-left: 10px;
+    background-color:  royalblue;
+    color: whitesmoke;
+    margin-left: 105px;
+    margin-right: 104px;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: -40;
+}
